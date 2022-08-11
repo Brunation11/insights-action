@@ -1,0 +1,20 @@
+{
+  "name": "repository-insights-action",
+  "version": "1.0.0",
+  "description": "Aggregate Github repository traffic data past the default 2 week period",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brunation11/repository-insights-action.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brunation11/repository-insights-action/issues"
+  },
+  "homepage": "https://github.com/Brunation11/repository-insights-action#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "octokit": "^2.0.5"
+  }
+}

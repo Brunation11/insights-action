@@ -1,0 +1,13 @@
+name: 'Repository Insights'
+author: Bruno Zatta
+description: 'Aggregate Github repository traffic data past the default 2 week period'
+
+inputs:
+  branch:
+    description:
+    required: false
+    default: dev
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
